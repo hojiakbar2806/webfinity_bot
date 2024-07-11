@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "webfinity-bot"
+version = "0.1.0"
+description = "There are all services of aiogram bot."
+authors = ["hojiakbar2806 <hojiakbarnasriddinov2006@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.10.0"
+alembic = "^1.13.2"
+pydantic-settings = "^2.3.4"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.31"}
+asyncpg = "^0.29.0"
+python-dotenv = "^1.0.1"
+pydantic = "^2.8.2"
+psycopg2-binary = "^2.9.9"
+aiohttp = "^3.9.5"
+geopy = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
