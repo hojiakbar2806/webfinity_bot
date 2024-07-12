@@ -6,7 +6,7 @@ from sqlalchemy import select
 
 from bot import keyboards as kb
 from bot.filters import IsSubscriber
-from bot.states import WeatherState, RegisterState, SenderState
+from bot.states import WeatherState, RegisterState, SenderState, TimerState
 from bot.utils import get_address_from_coordinates
 from data.base import get_session
 from data.crud import get_user_by_chat_id
@@ -36,9 +36,15 @@ async def weather_handler(message: types.Message, state: FSMContext, bot: Bot):
 
 @cmd_router.message(StateFilter(None), Command("register"))
 async def register_handler(message: types.Message, state: FSMContext):
-    await message.answer("Ismingizni kiriting")
-    await state.update_data(chat_id=message.from_user.id)
-    await state.set_state(RegisterState.first_name)
+    chat_id = message.chat.id
+    async with get_session() as session:
+        user = await get_user_by_chat_id(session, chat_id)
+        if user:
+            await message.answer("Siz allaqachon ro'yxatdan o'tganziz")
+            return
+        await message.answer("Ismingizni kiriting")
+        await state.update_data(chat_id=message.from_user.id)
+        await state.set_state(RegisterState.first_name)
 
 
 @cmd_router.message(Command('my_info'))
@@ -93,3 +99,9 @@ async def cmd_top(message: types.Message):
     score_entries_text = "\n".join(score_entries) \
         .replace(f"{message.from_user.id}", f"{message.from_user.id} (it's you!)")
     await message.answer(text_template.format(scores=score_entries_text), parse_mode="HTML")
+
+
+@cmd_router.message(StateFilter(None), Command('start_timer'))
+async def start_timer(message: types.Message, state: FSMContext):
+    await message.reply("Vaqt kiriting kirting faqat soniyada", reply_markup=kb.delete())
+    await state.set_state(TimerState.get_time)

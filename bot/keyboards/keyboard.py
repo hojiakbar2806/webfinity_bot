@@ -88,3 +88,11 @@ def confirm_save_to_database():
     rkm = rkm_b.adjust(2, True).as_markup(resize_keyboard=True)
 
     return rkm
+
+
+def start_counter():
+    rkm_b = ReplyKeyboardBuilder()
+    rkm_b.add(KeyboardButton(text="Boshlash"))
+    rkm = rkm_b.adjust(2, True).as_markup(resize_keyboard=True)
+
+    return rkm

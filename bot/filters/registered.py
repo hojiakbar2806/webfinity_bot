@@ -1,10 +1,9 @@
-from aiogram.filters import Filter
 from aiogram import types, Bot
-from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.future import select
-from data.base import get_session
-from data.models import User
+from aiogram.filters import Filter
+
 from bot import keyboards as kb
+from data.base import get_session
+from data.crud import get_user_by_chat_id
 
 
 class IsRegistered(Filter):
@@ -16,10 +15,8 @@ class IsRegistered(Filter):
         text = "Iltimos ro'yxatdan o'ting. Buning uchun /register buyrug'ini kiriting"
 
         async with get_session() as session:
-            async with session.begin():
-                query = select(User).filter(User.chat_id == chat_id)
-                user = await session.execute(query).result.first()
-                if not user:
-                    await message.answer(text, reply_markup=kb.delete())
-                    return False
-                return True
+            user = await get_user_by_chat_id(session, chat_id)
+            if not user:
+                await message.answer(text, reply_markup=kb.delete())
+                return False
+            return True

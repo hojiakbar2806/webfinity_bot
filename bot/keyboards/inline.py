@@ -71,3 +71,14 @@ def generate_balls() -> InlineKeyboardMarkup:
             callback_data=BallsCallbackFactory(color=data[item]).pack()
         )
     return ikm_b.adjust(3).as_markup()
+
+
+def stop_counter():
+    ikm_b = InlineKeyboardBuilder()
+    ikm_b.add(InlineKeyboardButton(
+        text="To'xtatish", callback_data="stop_timer"))
+
+    ikm_b.adjust(2)
+    ikm = ikm_b.as_markup()
+
+    return ikm

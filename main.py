@@ -22,6 +22,7 @@ async def main():
     dp.include_router(handlers.msg_router)
     dp.include_router(handlers.register_state_router)
     dp.include_router(handlers.sender_state_router)
+    dp.include_router(handlers.timer_state_router)
 
     await dp.start_polling(bot)
     await bot.delete_my_commands()
@@ -32,12 +33,13 @@ async def main():
         BotCommand(command="get_weather", description="Bugungi ob-havo ma'lumotlarini olish"),
         BotCommand(command="add_likee", description="Xabarga likee qadash"),
         BotCommand(command="play", description="O'yinni boshlash uchun"),
-        BotCommand(command="top", description="Eng baland bal yig'gan o'yinchilar")
+        BotCommand(command="top", description="Eng baland bal yig'gan o'yinchilar"),
+        BotCommand(command="start_timer", description="Teskari sanash")
     ])
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
+    # logging.basicConfig(level=logging.INFO)
     try:
         asyncio.run(main())
     except KeyboardInterrupt:

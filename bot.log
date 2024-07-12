@@ -182,3 +182,202 @@
 2024-07-12 01:21:33,567 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1403, 'content': 'Ha saqlansin'}
 2024-07-12 01:21:38,816 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1405, 'content': '/my_info'}
 2024-07-12 01:21:48,252 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1407, 'content': '/play'}
+2024-07-12 01:25:58,921 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1408, 'content': '/play'}
+2024-07-12 01:27:22,766 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1410, 'content': '/top'}
+2024-07-12 01:27:37,771 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1412, 'content': '/top'}
+2024-07-12 01:46:59,920 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1414, 'content': '/start'}
+2024-07-12 01:47:11,244 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1415, 'content': '/start'}
+2024-07-12 01:47:22,188 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1416, 'content': '/start'}
+2024-07-12 01:47:36,272 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1417, 'content': '/start'}
+2024-07-12 01:47:38,352 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1418, 'content': '/start_timer'}
+2024-07-12 01:48:30,725 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1421, 'content': '/start_timer'}
+2024-07-12 01:48:33,158 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1423, 'content': '10'}
+2024-07-12 01:49:28,235 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1424, 'content': '/start_timer'}
+2024-07-12 01:49:30,065 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1426, 'content': '20'}
+2024-07-12 01:52:03,318 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1428, 'content': '/start_timer'}
+2024-07-12 01:52:04,400 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1430, 'content': 'weqdwed'}
+2024-07-12 01:54:53,156 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1431, 'content': '/start_timer'}
+2024-07-12 01:54:55,382 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1433, 'content': 'wwed'}
+2024-07-12 01:54:57,933 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1435, 'content': '12'}
+2024-07-12 01:55:39,293 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1437, 'content': '/start_timer'}
+2024-07-12 01:55:40,820 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1439, 'content': '12'}
+2024-07-12 01:56:33,715 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1440, 'content': '/start_timer'}
+2024-07-12 01:56:34,438 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1442, 'content': '12'}
+2024-07-12 01:57:02,192 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1443, 'content': '/start_timer'}
+2024-07-12 01:57:03,298 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1445, 'content': '12'}
+2024-07-12 02:00:17,917 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1446, 'content': '/start_timer'}
+2024-07-12 02:00:21,720 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1448, 'content': 'salom'}
+2024-07-12 02:00:23,181 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1450, 'content': '12'}
+2024-07-12 02:01:05,090 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1451, 'content': '/start_timer'}
+2024-07-12 02:01:06,104 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1453, 'content': 'qw'}
+2024-07-12 02:01:07,399 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1455, 'content': '12'}
+2024-07-12 02:01:28,658 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1456, 'content': '/start_timer'}
+2024-07-12 02:01:30,016 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1458, 'content': 'qws'}
+2024-07-12 02:01:31,241 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1460, 'content': 'qwsqw'}
+2024-07-12 02:01:32,992 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1462, 'content': '12'}
+2024-07-12 02:01:52,715 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1463, 'content': '/start_timer'}
+2024-07-12 02:01:53,971 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1465, 'content': '12'}
+2024-07-12 02:02:14,370 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1466, 'content': '/start_timer'}
+2024-07-12 02:02:17,051 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1468, 'content': '12'}
+2024-07-12 02:03:30,459 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1469, 'content': '/start_timer'}
+2024-07-12 02:03:35,096 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1471, 'content': '12'}
+2024-07-12 02:04:52,355 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1472, 'content': '/start_timer'}
+2024-07-12 02:04:53,576 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1474, 'content': '12'}
+2024-07-12 02:05:17,534 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1475, 'content': '/start_timer'}
+2024-07-12 02:05:20,619 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1477, 'content': '12'}
+2024-07-12 02:05:24,375 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1478, 'content': '12'}
+2024-07-12 02:09:49,317 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1479, 'content': '/start_timer'}
+2024-07-12 02:09:52,022 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1481, 'content': '2w'}
+2024-07-12 02:09:54,737 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1483, 'content': 'qwqs'}
+2024-07-12 02:10:04,947 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1485, 'content': '12'}
+2024-07-12 02:10:08,092 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1487, 'content': 'Boshlash'}
+2024-07-12 02:11:46,213 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1488, 'content': '/start_timer'}
+2024-07-12 02:11:48,021 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1490, 'content': '12'}
+2024-07-12 02:11:49,984 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1492, 'content': 'Boshlash'}
+2024-07-12 02:15:51,035 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1493, 'content': '/start_timer'}
+2024-07-12 02:15:53,162 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1495, 'content': '12'}
+2024-07-12 02:16:50,393 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1497, 'content': '/start_timer'}
+2024-07-12 02:16:51,319 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1499, 'content': '12'}
+2024-07-12 02:16:53,071 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1501, 'content': 'Boshlash'}
+2024-07-12 02:17:57,335 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1503, 'content': '/start_timer'}
+2024-07-12 02:18:01,414 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1505, 'content': '30'}
+2024-07-12 02:18:03,398 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1507, 'content': 'Boshlash'}
+2024-07-12 02:18:32,290 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1509, 'content': "To'xtatish"}
+2024-07-12 02:18:37,813 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1511, 'content': 'Boshlash'}
+2024-07-12 02:18:38,114 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1513, 'content': 'Boshlash'}
+2024-07-12 02:18:38,234 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1514, 'content': 'Boshlash'}
+2024-07-12 02:18:38,423 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1516, 'content': 'Boshlash'}
+2024-07-12 02:19:38,300 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1524, 'content': '/start_timer'}
+2024-07-12 02:19:41,272 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1526, 'content': '1'}
+2024-07-12 02:19:42,262 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1528, 'content': 'Boshlash'}
+2024-07-12 02:19:42,594 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1530, 'content': 'Boshlash'}
+2024-07-12 02:19:42,699 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1531, 'content': 'Boshlash'}
+2024-07-12 02:19:42,802 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1532, 'content': 'Boshlash'}
+2024-07-12 02:19:42,916 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1534, 'content': 'Boshlash'}
+2024-07-12 02:20:21,735 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1538, 'content': '/start_timer'}
+2024-07-12 02:20:24,619 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1540, 'content': '5'}
+2024-07-12 02:20:25,658 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1542, 'content': 'Boshlash'}
+2024-07-12 02:20:25,764 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1543, 'content': 'Boshlash'}
+2024-07-12 02:21:15,232 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1554, 'content': '/start_timer'}
+2024-07-12 02:21:18,731 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1556, 'content': '100'}
+2024-07-12 02:21:20,302 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1558, 'content': 'Boshlash'}
+2024-07-12 02:26:34,261 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1560, 'content': '/start_timer'}
+2024-07-12 02:26:35,482 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1562, 'content': '10'}
+2024-07-12 02:26:37,263 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1564, 'content': 'Boshlash'}
+2024-07-12 02:27:43,642 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1566, 'content': '/start_timer'}
+2024-07-12 02:27:44,843 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1568, 'content': '10'}
+2024-07-12 02:27:47,885 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1570, 'content': 'Boshlash'}
+2024-07-12 02:29:34,903 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1572, 'content': '/start_timer'}
+2024-07-12 02:29:37,233 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1574, 'content': '10'}
+2024-07-12 02:29:40,022 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1576, 'content': 'Boshlash'}
+2024-07-12 02:30:03,735 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1578, 'content': '/start_timer'}
+2024-07-12 02:30:06,713 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1580, 'content': '10'}
+2024-07-12 02:30:08,096 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1582, 'content': 'Boshlash'}
+2024-07-12 02:31:28,486 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1584, 'content': '/start_timer'}
+2024-07-12 02:31:30,839 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1586, 'content': '15'}
+2024-07-12 02:31:32,678 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1588, 'content': 'Boshlash'}
+2024-07-12 02:32:09,329 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1590, 'content': '/start_timer'}
+2024-07-12 02:32:11,660 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1592, 'content': '11'}
+2024-07-12 02:32:13,227 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1594, 'content': 'Boshlash'}
+2024-07-12 02:34:19,236 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1596, 'content': '/start_timer'}
+2024-07-12 02:34:20,607 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1598, 'content': '10'}
+2024-07-12 02:34:22,231 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1600, 'content': 'Boshlash'}
+2024-07-12 02:34:52,950 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1603, 'content': '/start_timer'}
+2024-07-12 02:34:55,081 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1605, 'content': '12'}
+2024-07-12 02:34:56,613 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1607, 'content': 'Boshlash'}
+2024-07-12 02:35:52,673 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1609, 'content': '/start_timer'}
+2024-07-12 02:35:53,593 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1611, 'content': '3'}
+2024-07-12 02:35:55,022 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1613, 'content': 'Boshlash'}
+2024-07-12 02:38:02,807 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1616, 'content': '/start_timer'}
+2024-07-12 02:38:04,256 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1618, 'content': '1'}
+2024-07-12 02:38:08,551 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1620, 'content': 'Boshlash'}
+2024-07-12 02:39:12,448 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1624, 'content': '/start_timer'}
+2024-07-12 02:39:15,026 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1626, 'content': '1'}
+2024-07-12 02:39:17,131 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1628, 'content': 'Boshlash'}
+2024-07-12 02:40:04,703 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1633, 'content': '/start_timer'}
+2024-07-12 02:40:06,102 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1635, 'content': '3'}
+2024-07-12 02:40:10,419 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1637, 'content': 'Boshlash'}
+2024-07-12 02:44:26,445 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1640, 'content': '/register'}
+2024-07-12 02:44:51,087 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1642, 'content': 'Hojiakbar'}
+2024-07-12 02:44:53,666 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1644, 'content': 'Nasriddinov'}
+2024-07-12 02:44:56,069 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1646, 'content': 'No text'}
+2024-07-12 02:44:57,290 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1648, 'content': 'Erkak'}
+2024-07-12 02:45:12,773 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1650, 'content': 'No text', 'latitude': 41.193724, 'longitude': 69.284588}
+2024-07-12 02:45:14,650 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1652, 'content': 'Tashlab ketish'}
+2024-07-12 02:45:16,844 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1654, 'content': 'Ha saqlansin'}
+2024-07-12 02:45:25,663 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1656, 'content': '/my_info'}
+2024-07-12 02:45:58,313 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1659, 'content': '/my_info'}
+2024-07-12 02:51:31,986 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1667, 'content': '/register'}
+2024-07-12 02:51:41,058 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1669, 'content': '/my_info'}
+2024-07-12 02:51:49,082 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1671, 'content': '/my_info'}
+2024-07-12 02:52:44,230 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1673, 'content': '/my_info'}
+2024-07-12 02:55:50,267 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1679, 'content': '/register'}
+2024-07-12 02:55:50,728 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1680, 'content': '/register'}
+2024-07-12 02:57:08,295 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1681, 'content': '/register'}
+2024-07-12 02:57:52,164 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1682, 'content': '/register'}
+2024-07-12 02:58:20,682 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1683, 'content': '/register'}
+2024-07-12 02:59:20,381 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1686, 'content': 'Hojiakbar'}
+2024-07-12 02:59:23,676 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1688, 'content': 'Nasriddinov'}
+2024-07-12 02:59:25,559 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1690, 'content': 'No text'}
+2024-07-12 02:59:26,968 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1692, 'content': 'Erkak'}
+2024-07-12 02:59:27,823 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1694, 'content': 'Tashlab ketish'}
+2024-07-12 02:59:28,835 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1696, 'content': 'Tashlab ketish'}
+2024-07-12 02:59:29,958 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1698, 'content': 'Ha saqlansin'}
+2024-07-12 02:59:33,549 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1700, 'content': '/my_info'}
+2024-07-12 02:59:39,996 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1702, 'content': '/register'}
+2024-07-12 03:01:25,549 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1705, 'content': '/register'}
+2024-07-12 03:01:30,229 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1707, 'content': '/register'}
+2024-07-12 03:01:32,275 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1709, 'content': '/my_info'}
+2024-07-12 03:01:34,466 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1711, 'content': '/my_info'}
+2024-07-12 03:02:34,333 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1713, 'content': '/start_timer'}
+2024-07-12 03:02:35,966 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1715, 'content': '12'}
+2024-07-12 03:02:41,043 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1717, 'content': 'No text'}
+2024-07-12 03:02:42,328 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1719, 'content': 'Erkak'}
+2024-07-12 03:02:47,851 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1721, 'content': 'Tashlab ketish'}
+2024-07-12 03:02:49,953 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1723, 'content': 'Tashlab ketish'}
+2024-07-12 03:02:50,484 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1726, 'content': 'Tahrirlash'}
+2024-07-12 03:02:50,735 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1728, 'content': 'Tahrirlash'}
+2024-07-12 03:02:54,746 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1730, 'content': 'a'}
+2024-07-12 03:02:57,022 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1732, 'content': 'No text'}
+2024-07-12 03:02:58,425 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1734, 'content': 'Erkak'}
+2024-07-12 03:02:59,681 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1736, 'content': 'Tashlab ketish'}
+2024-07-12 03:03:00,518 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1738, 'content': 'Tashlab ketish'}
+2024-07-12 03:03:02,871 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1740, 'content': 'Ha saqlansin'}
+2024-07-12 03:03:08,096 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1742, 'content': '/register'}
+2024-07-12 03:03:45,261 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1745, 'content': 'qwsqwsqwsq'}
+2024-07-12 03:03:45,683 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1747, 'content': 'wsqwsq'}
+2024-07-12 03:03:46,148 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1749, 'content': 'wsqws'}
+2024-07-12 03:03:46,388 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1751, 'content': 'qws'}
+2024-07-12 03:03:46,492 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1752, 'content': 'qws'}
+2024-07-12 03:03:46,618 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1754, 'content': 'q'}
+2024-07-12 03:03:46,727 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1755, 'content': 'ws'}
+2024-07-12 03:03:46,833 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1757, 'content': 'q'}
+2024-07-12 03:03:46,947 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1759, 'content': 'ws'}
+2024-07-12 03:03:47,055 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1761, 'content': 'q'}
+2024-07-12 03:03:47,165 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1764, 'content': 'ws'}
+2024-07-12 03:03:49,082 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1767, 'content': 'qwsqwsqws'}
+2024-07-12 03:03:50,370 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1769, 'content': '/start_timer'}
+2024-07-12 03:03:52,136 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1771, 'content': '/start_timer'}
+2024-07-12 03:03:54,660 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1773, 'content': 'No text'}
+2024-07-12 03:03:56,052 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1775, 'content': '/start_timer'}
+2024-07-12 03:03:57,335 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1777, 'content': 'Erkak'}
+2024-07-12 03:03:58,701 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1779, 'content': '/start_timer'}
+2024-07-12 03:04:00,757 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1781, 'content': '/start_timer'}
+2024-07-12 03:04:03,295 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1783, 'content': 'Tashlab ketish'}
+2024-07-12 03:04:04,820 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1785, 'content': 'Tashlab ketish'}
+2024-07-12 03:04:05,804 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1787, 'content': 'Bekor qilish'}
+2024-07-12 03:04:07,876 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1789, 'content': '/start_timer'}
+2024-07-12 03:04:20,384 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1791, 'content': '1234567890'}
+2024-07-12 03:04:22,681 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1793, 'content': 'Boshlash'}
+2024-07-12 08:48:47,734 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1796, 'content': '/get_weather'}
+2024-07-12 08:48:54,290 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1798, 'content': 'No text', 'latitude': 41.365803, 'longitude': 64.687511}
+2024-07-12 08:48:55,184 - bot.middlewares.logging_middleware - INFO - hojiakbar_0628: Muruntau Nawoiy Uzbekistan
+2024-07-12 08:48:55,185 - bot.middlewares.logging_middleware - INFO - Request: https://weatherapi-com.p.rapidapi.com/current.json?q=41.365803,64.687511 it's <200>
+2024-07-12 08:49:02,729 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1801, 'content': '/start_timer'}
+2024-07-12 08:49:06,178 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1803, 'content': '22'}
+2024-07-12 08:49:08,711 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1805, 'content': 'Boshlash'}
+2024-07-12 08:49:33,054 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1807, 'content': '/top'}
+2024-07-12 08:49:43,652 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1810, 'content': '/play'}
+2024-07-12 08:51:29,440 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1812, 'content': '/top'}
+2024-07-12 08:51:32,045 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1814, 'content': '/play'}
+2024-07-12 08:52:52,063 - bot.middlewares.logging_middleware - INFO - User: {'username': 'hojiakbar_0628', 'user_id': 5050150433, 'chat_id': 5050150433, 'message_id': 1816, 'content': '/top'}

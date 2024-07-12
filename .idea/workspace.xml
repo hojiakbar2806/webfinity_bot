@@ -4,56 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad95f75-5361-4ac9-8466-4fbcd705f031" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webfinity_bot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/filters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/filters/chat_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/filters/registered.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/filters/subscriber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/command_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/inline_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/message_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/register_state_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/sender_state_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/keyboards/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/keyboards/inline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/keyboards/keyboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/middlewares/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/middlewares/logging_middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/services/likee_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/services/weather_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/states/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/states/register_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/states/sender_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/states/weather_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/utils/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crud/gamer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/crud/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/gamer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/00bb064066da_initial_migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="7ad95f75-5361-4ac9-8466-4fbcd705f031" name="Changes" comment="THE BEST BOT">
+      <change afterPath="$PROJECT_DIR$/bot/handlers/timer_state_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/states/timer_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.log" beforeDir="false" afterPath="$PROJECT_DIR$/bot.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/filters/registered.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/filters/registered.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/handlers/command_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/command_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/handlers/inline_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/inline_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/keyboards/inline.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/keyboards/inline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/keyboards/keyboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/keyboards/keyboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/states/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/gamer.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/models/gamer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stickers/loading_emoji.tgs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +97,27 @@
       <option name="presentableId" value="Default" />
       <updated>1720561798499</updated>
     </task>
+    <task id="LOCAL-00001" summary="THE BEST BOT">
+      <option name="closed" value="true" />
+      <created>1720729438173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720729438173</updated>
+    </task>
+    <task id="LOCAL-00002" summary="THE BEST BOT">
+      <option name="closed" value="true" />
+      <created>1720729455753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720729455753</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="THE BEST BOT" />
+    <option name="LAST_COMMIT_MESSAGE" value="THE BEST BOT" />
   </component>
 </project>

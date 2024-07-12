@@ -1,3 +1,4 @@
+import asyncio
 import logging
 from contextlib import suppress
 
@@ -50,10 +51,10 @@ async def delete_user_info(query: CallbackQuery):
         await query.message.delete()
         return
 
-    session.delete(user)
-    session.commit()
+    await session.delete(user)
+    await session.commit()
+    await query.answer("Malumotlar o'chirildi")
     await query.message.delete()
-    await query.answer("Malumotlar o'chirildi", show_alert=True)
 
 
 @inline_router.callback_query(lambda query: query.data.startswith('action_'))
@@ -94,3 +95,13 @@ async def cb_hit(callback: CallbackQuery):
     # Since we have "expire_on_commit=False", we can use player instance here
     with suppress(TelegramBadRequest):
         await callback.message.edit_text(f"Your score: {player.score}", reply_markup=kb.generate_balls())
+
+
+@inline_router.callback_query(lambda c: c.data.startswith('start_timer'))
+async def start_timer(callback_query: CallbackQuery):
+    countdown_seconds = int(callback_query.data.split(':')[1])
+    message = callback_query.message
+    for i in range(countdown_seconds, 0, -1):
+        await message.edit_text(f"Qolgan vaqt: {i} sekund")
+        await asyncio.sleep(1)
+    await message.edit_text("Vaqt tugadi!")

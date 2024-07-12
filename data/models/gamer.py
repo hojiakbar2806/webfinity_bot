@@ -4,7 +4,6 @@ from data.base import Base
 
 
 class GamerScore(Base):
-    __tablename__ = "gamer_score"
-
+    __tablename__: str = "gamer_score"
     user_id = Column(BigInteger, primary_key=True, unique=True, autoincrement=False)
     score = Column(Integer, default=0)
