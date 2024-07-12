@@ -1,4 +1,5 @@
-from sqlalchemy import BigInteger, Column, Float, Integer, String
+from sqlalchemy import BigInteger, Column, Float, Integer, String, Boolean
+
 from data.base import Base
 
 
@@ -7,6 +8,7 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     chat_id = Column(BigInteger, unique=True, nullable=False)
     first_name = Column(String)
+    is_admin = Column(Boolean, default=False)
     last_name = Column(String)
     phone_number = Column(String)
     latitude = Column(Float, nullable=True)

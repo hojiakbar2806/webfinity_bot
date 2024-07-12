@@ -2,24 +2,21 @@ import asyncio
 import logging
 from contextlib import suppress
 
-from aiogram import Router, Bot, F
+from aiogram import Router, F
 from aiogram.exceptions import TelegramBadRequest
-from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery
 from sqlalchemy import select
 
 from bot import keyboards as kb
-from bot.services.likee_service import like_service
 from bot.utils import BallsCallbackFactory
 from data.base import get_session
 from data.config import settings
-from data.crud import get_user_by_chat_id
+from data.crud import get_user_by_chat_id, promote_to_admin
 from data.models.gamer import GamerScore
 
 inline_router = Router()
 
 
-# noinspection PyBroadException
 @inline_router.callback_query(lambda query: query.data == "check_subscriber")
 async def check_subscriber_handler(callback_query: CallbackQuery):
     """
@@ -57,22 +54,6 @@ async def delete_user_info(query: CallbackQuery):
     await query.message.delete()
 
 
-@inline_router.callback_query(lambda query: query.data.startswith('action_'))
-async def handle_action_query(query: CallbackQuery, bot: Bot, state: FSMContext):
-    try:
-        values = await like_service(query, state)
-        print(values)
-        await bot.edit_message_reply_markup(
-            chat_id=query.message.chat.id,
-            message_id=query.message.message_id,
-            reply_markup=kb.likee(values["likes"], values["dislikes"])
-        )
-    #
-    except Exception as e:
-        logging.error(f"Error occurred while handling action query: {str(e)}")
-        await query.answer("Xatolik yuz berdi, iltimos qayta urinib ko'ring.")
-
-
 @inline_router.callback_query(BallsCallbackFactory.filter(F.color == "red"))
 async def cb_miss(callback: CallbackQuery):
     async with get_session() as session:
@@ -105,3 +86,17 @@ async def start_timer(callback_query: CallbackQuery):
         await message.edit_text(f"Qolgan vaqt: {i} sekund")
         await asyncio.sleep(1)
     await message.edit_text("Vaqt tugadi!")
+
+
+@inline_router.callback_query(lambda query: query.data.startswith('promote_admin'))
+async def promote_admin_callback_handler(query: CallbackQuery):
+    try:
+        chat_id = int(query.data.split(':')[-1])
+        success = await promote_to_admin(chat_id)
+        if success:
+            await query.answer("Foydalanuvchi muvaffaqiyatli admin deb belgilandi")
+        else:
+            await query.answer("Foydalanuvchi topilmadi yoki allaqachon admin", show_alert=True)
+    except Exception as e:
+        await query.answer("An error occurred while processing your request.", show_alert=True)
+        print(f"Error promoting user: {e}")

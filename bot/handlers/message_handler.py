@@ -1,10 +1,10 @@
-import asyncio
 from aiogram import types, Router, Bot, F
+from aiogram.fsm.context import FSMContext
+
 from bot import keyboards as kb
 from bot.filters import IsSubscriber
 from bot.services import fetch_weather_data, weather_info
 from bot.states import WeatherState
-from aiogram.fsm.context import FSMContext
 
 msg_router = Router()
 

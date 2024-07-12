@@ -6,7 +6,7 @@ from sqlalchemy import select
 
 from bot import keyboards as kb
 from bot.filters import IsSubscriber
-from bot.states import WeatherState, RegisterState, SenderState, TimerState
+from bot.states import WeatherState, RegisterState, TimerState
 from bot.utils import get_address_from_coordinates
 from data.base import get_session
 from data.crud import get_user_by_chat_id
@@ -18,13 +18,6 @@ cmd_router = Router()
 @cmd_router.message(Command('start'))
 async def start_handler(message: types.Message, bot: Bot):
     pass
-
-
-@cmd_router.message(StateFilter(None), Command('add_likee'))
-async def post_channel(message: types.Message, state: FSMContext):
-    await state.update_data(chat_id=message.chat.id)
-    await message.answer("Post matnini, videosini yoki rasmini yuklang", reply_markup=kb.delete())
-    await state.set_state(SenderState.get_message)
 
 
 @cmd_router.message(StateFilter(None), Command('get_weather'), IsSubscriber())

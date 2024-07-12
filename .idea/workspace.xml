@@ -5,20 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad95f75-5361-4ac9-8466-4fbcd705f031" name="Changes" comment="THE BEST BOT">
-      <change afterPath="$PROJECT_DIR$/bot/handlers/timer_state_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/states/timer_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/filters/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/handlers/likee_state_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/states/likee_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfinity_key.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.log" beforeDir="false" afterPath="$PROJECT_DIR$/bot.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/filters/registered.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/filters/registered.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/handlers/command_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/command_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/handlers/inline_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/inline_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/handlers/message_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/message_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/handlers/sender_state_handler.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/keyboards/inline.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/keyboards/inline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/keyboards/keyboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/keyboards/keyboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/services/likee_service.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/states/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/models/gamer.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/models/gamer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/states/sender_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/states/sender_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/crud/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/crud/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/models/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stickers/loading_emoji.tgs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/00bb064066da_initial_migration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/1fc5333cc0f0_initial_migration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/e859b4880f52_initial_migration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/f917cb70608c_initial_migration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/fd2bd81e0e30_initial_migration.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

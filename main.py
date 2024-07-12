@@ -21,7 +21,7 @@ async def main():
     dp.include_router(handlers.inline_router)
     dp.include_router(handlers.msg_router)
     dp.include_router(handlers.register_state_router)
-    dp.include_router(handlers.sender_state_router)
+    dp.include_router(handlers.likee_state_handler)
     dp.include_router(handlers.timer_state_router)
 
     await dp.start_polling(bot)
@@ -39,7 +39,7 @@ async def main():
 
 
 if __name__ == '__main__':
-    # logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.INFO)
     try:
         asyncio.run(main())
     except KeyboardInterrupt:

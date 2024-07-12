@@ -82,3 +82,14 @@ def stop_counter():
     ikm = ikm_b.as_markup()
 
     return ikm
+
+
+def request_permission(chat_id):
+    ikm_b = InlineKeyboardBuilder()
+    ikm_b.add(InlineKeyboardButton(
+        text="Ruxsat berish", callback_data=f"promote_admin:{chat_id}"))
+
+    ikm_b.adjust(2)
+    ikm = ikm_b.as_markup()
+
+    return ikm
